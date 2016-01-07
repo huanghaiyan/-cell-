@@ -14,6 +14,8 @@
 		F47037401B73897100A026EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F470373F1B73897100A026EC /* Images.xcassets */; };
 		F47037431B73897100A026EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47037411B73897100A026EC /* LaunchScreen.xib */; };
 		F470374F1B73897100A026EC /* Layout4CustemCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F470374E1B73897100A026EC /* Layout4CustemCellTests.m */; };
+		F470375B1B7389CC00A026EC /* CustemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F47037591B7389CC00A026EC /* CustemCell.m */; };
+		F470375C1B7389CC00A026EC /* CustemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F470375A1B7389CC00A026EC /* CustemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		F47037481B73897100A026EC /* Layout4CustemCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Layout4CustemCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F470374D1B73897100A026EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F470374E1B73897100A026EC /* Layout4CustemCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Layout4CustemCellTests.m; sourceTree = "<group>"; };
+		F47037581B7389CC00A026EC /* CustemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustemCell.h; sourceTree = "<group>"; };
+		F47037591B7389CC00A026EC /* CustemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustemCell.m; sourceTree = "<group>"; };
+		F470375A1B7389CC00A026EC /* CustemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				F47037391B73897100A026EC /* ViewController.h */,
 				F470373A1B73897100A026EC /* ViewController.m */,
 				F470373C1B73897100A026EC /* Main.storyboard */,
+				F47037581B7389CC00A026EC /* CustemCell.h */,
+				F47037591B7389CC00A026EC /* CustemCell.m */,
+				F470375A1B7389CC00A026EC /* CustemCell.xib */,
 				F470373F1B73897100A026EC /* Images.xcassets */,
 				F47037411B73897100A026EC /* LaunchScreen.xib */,
 				F47037321B73897100A026EC /* Supporting Files */,
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F470375C1B7389CC00A026EC /* CustemCell.xib in Resources */,
 				F470373E1B73897100A026EC /* Main.storyboard in Resources */,
 				F47037431B73897100A026EC /* LaunchScreen.xib in Resources */,
 				F47037401B73897100A026EC /* Images.xcassets in Resources */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F470375B1B7389CC00A026EC /* CustemCell.m in Sources */,
 				F470373B1B73897100A026EC /* ViewController.m in Sources */,
 				F47037381B73897100A026EC /* AppDelegate.m in Sources */,
 				F47037351B73897100A026EC /* main.m in Sources */,
