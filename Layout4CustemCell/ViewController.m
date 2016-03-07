@@ -69,7 +69,7 @@ static NSString *detaile = @"详情详情详情详情详情详情详情详情详
     
     CGFloat height = [tmpCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
     
-    return height;
+    return height + 1;
 }
 
 @end
